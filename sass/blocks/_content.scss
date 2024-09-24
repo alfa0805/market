@@ -1,0 +1,59 @@
+.content{
+    .container{
+        padding: 140px 0px;
+        position: relative;
+    }
+    &__img{
+        width: 160px;
+        height: 200px;
+        position: absolute;
+        top: 110px;
+        left: 10px;
+    }
+    &__pic{
+        width: 160px;
+        height: 200px;
+        position: absolute;
+        top: 250px;
+        left: 1040px;
+    }
+    &__title{
+        padding: 0px 200px;
+        padding-bottom: 80px;
+        font-family: Raleway;
+        font-size: 34px;
+        font-weight: 560;
+        line-height: 40px;
+        text-align: center;
+        color: #282B22;
+    }
+    &__nav{
+        border-bottom: 1px solid #e0dddd;
+        display: flex;
+        padding: 0px 150px;
+        &-box{
+            border-top:1px solid #e0dddd;
+            padding: 35px 20px;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            width: 50%;
+            &--radio{
+                margin-top: 5px;
+            }
+            &--text{
+                padding:0px 15px;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 27px;
+                text-align: left;
+                color: #282B22;
+                opacity: 70%;
+            }
+        }
+        &-box:nth-child(2){
+            border-left:1px solid #e0dddd ;
+        }
+    }
+}

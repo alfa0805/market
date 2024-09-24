@@ -1,0 +1,82 @@
+.element{
+    background: #F3F3F3;
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    &__nav{
+        width: 1000px;
+        // height: 500px;
+        padding: 120px 80px;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        border-left: 2px solid #e0dddd;
+        border-right: 2px solid #e0dddd;
+        border-radius:260px;
+        &-box{
+            width: 30%;
+            padding: 0px 50px;
+            &--img{
+                width: 150px;
+                height: 126px;
+            }
+            &--image{
+                width: 166px;
+                height: 129px;
+            }
+            &--span{
+                padding-left: 23px;
+                display: flex;
+                align-items: center;
+            }
+            &--subtext{
+                padding-left: 10px;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 23.2px;
+                text-align: center;
+                color: #3D4A39;
+            }
+        }
+        &-block{
+            width: 40%;
+            &--title{
+                font-family: Raleway;
+                font-size: 46px;
+                font-weight: 600;
+                line-height: 57.5px;
+                text-align: center;
+                color: #282B22;
+            }
+            &--text{
+                padding: 23px 0px 55px 0px;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: center;
+                color: #282B22;
+                opacity: 80%;
+            }
+            &--btn{
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                text-align:center;
+                color: #FFFFFF;
+                background: #AE7B3C;
+                border: none;
+                border-radius: 3px;
+                padding: 10px 30px;
+                margin-left: 70px;
+                &:hover{
+                    color:#F3F3F3;
+                    background: #3D4A39;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.down{
+    padding: 50px 0px;
+    &__title{
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        color: #3D4A39;
+    }
+    &__nav{
+        padding: 40px 0px;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        border-bottom: 2px solid #e0dddd;
+        &-franke{
+            width: 96px;
+            height: 30px;
+        }
+        &-hafele{
+            width: 138px;
+            height: 30px;
+        }
+        &-egger{
+            width: 110px;
+            height: 30px;
+        }
+        &-linken{
+            width: 93px;
+            height: 30px;
+        }
+        &-noxia{
+            width: 92px;
+            height: 17px;
+        }
+        &-s{
+            width: 40px;
+            height: 46px;
+        }
+        &-cleaf{
+            width: 112px;
+            height: 28px;
+        }
+        &-samsung{
+            width: 116px;
+            height: 26px;
+        }
+        &-blum{
+            width: 96px;
+            height: 26px;
+        }
+    }
+    &__box{
+        padding-top: 20px;
+        display: flex;
+        justify-content:space-between;
+        align-items: start;
+        &-text{
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            text-align: left;
+            color: #282B22;
+            opacity: 50%;
+        }
+    }
+}

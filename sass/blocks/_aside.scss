@@ -1,0 +1,88 @@
+.aside{
+    padding-bottom: 140px;
+    .container{
+        position: relative;
+    }
+    &__title{
+        padding-bottom: 80px;
+        font-family: Raleway;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 57.5px;
+        text-align: center;
+        color: #282B22;
+        border-bottom: 2px solid #e0dddd;
+    }
+    &__list{
+        gap: 30px;
+        &-item{
+            padding-top: 50px;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            border-bottom: 2px solid #e0dddd;
+            &--text{
+                width: 50%;
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: left;
+                color: #282B22;
+                opacity: 50%;
+            }
+            &--number{
+                width: 50%;
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 24px;
+                text-align: left;
+                color:#AE7B3C;
+                opacity: 90%;
+            }
+            &--box{
+                width: 50%;
+                padding-left: 50px;
+                padding-bottom: 30px;
+                border-left: 2px solid #e0dddd;
+            }
+            &--subtitle{
+                padding-bottom: 10px;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 40px;
+                text-align: left;
+                color: #282B22;
+                opacity: 90%;
+            }
+            &--subname{
+                padding-bottom: 10px;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 40px;
+                text-align: left;
+                color:#AE7B3C;
+                opacity: 90%;
+            }
+            &--subtext{
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+                color: #282B22;
+                opacity: 80%;
+            }
+        }
+    }
+    &__img{
+        width: 340px;
+        height: 240px;
+        position: absolute;
+        top: 430px;
+        left: 170px;
+    }
+}
